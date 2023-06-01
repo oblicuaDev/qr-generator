@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Generador de Codigo QR</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  </head>
+  <div class="header">
+    <header>
+        <img src="../imagenes/logo-promocion-bogota 1.png" alt="" class="logo">
+        <p><img src="../imagenes/Vector.png" alt="" class="icono">Cerrar Sesión</p>
+    </header>
+   
+  </div> 
+  <body>
+    <div class="contenedor">
+    <div class="titulo">
+        <h1>Crea tu Código QR</h1>
+        <p>URL de la página web</p>
+      <div class="form">
+        <input type="text" spellcheck="false" placeholder="https://ejemplo.com">
+        <button onclick="mostrar();">Generar código QR</button>
+      </div>
+      <div class="qr-code">
+        <a href="" download=""><img src="" alt="qr-code"></a>
+        <div class="botones">
+        <button type="submit" id="reiniciar" onclick="ocultar();" >Reiniciar</button>
+        <!-- <img src="" alt=""> -->
+        <button  class="descarga">Descargar </button>
+        
+      
+      </div>
+    </div>
+  </div>
+
+    <script src="../c_scripts/script.js"></script>
+    
+  </body>
+</html>
