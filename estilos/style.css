@@ -194,7 +194,7 @@
     margin: 10px 10px;
     background: linear-gradient(rgb(229, 123, 24),rgb(241, 211, 78));
     border: none;
-    outline: none;
+    /* outline: none; */
     transition: 0.4s ease;
   }
 
